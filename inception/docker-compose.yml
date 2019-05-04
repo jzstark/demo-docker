@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  classify: 
+    image: "matrixanger/inception:latest"
+    volumes:
+      - .:/tmp/inception_img 
+      #directory name must agree with that in the dir in Dockerfile
+      
